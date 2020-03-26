@@ -1,4 +1,4 @@
-package com.es.user.common;
+package com.es.user.session.common;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonSerializer;

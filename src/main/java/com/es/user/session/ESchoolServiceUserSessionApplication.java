@@ -1,4 +1,4 @@
-package com.es.user;
+package com.es.user.session;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,8 +9,8 @@ import org.springframework.session.data.mongo.config.annotation.web.http.EnableM
 
 
 @SpringBootApplication
-@EnableMongoRepositories(basePackages = {"com.es.user.repository"})
-@EntityScan(basePackages = {"com.es.user.entity"})
+@EnableMongoRepositories(basePackages = {"com.es.user.session.repository"})
+@EntityScan(basePackages = {"com.es.user.session.entity"})
 @EnableMongoHttpSession //开启 MongoDB 存储 session 的专用注解
 @EnableDiscoveryClient
 public class ESchoolServiceUserSessionApplication {

@@ -1,4 +1,4 @@
-package com.es.user.config;
+package com.es.user.session.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.session.data.mongo.JacksonMongoSessionConverter;
